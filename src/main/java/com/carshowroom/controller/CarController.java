@@ -177,4 +177,9 @@ public class CarController {
 	{
 		return ResponseEntity.ok(carser.findbybrandorderbyprice(brand));
 	}
+	@GetMapping("/get")
+	public String get()
+	{
+		return "jay";
+	}
 }
